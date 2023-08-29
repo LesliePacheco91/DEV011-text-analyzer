@@ -1,0 +1,56 @@
+.container{
+
+    width: 55%;
+    margin: auto;
+    padding: 10px;
+    background: #ffff;
+    border-radius: 10px;
+    text-align: center;
+}
+body{
+
+    background: #2e90d8;
+}
+
+#head{
+    width: 50%;
+    margin: auto;
+    color: #333;
+
+}
+.text-contend{
+
+    width: 100%;
+    margin: 10px 0 10px 0px;
+}
+
+textarea{
+
+    width: 80%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #5195d0;
+}
+li{
+
+    display: inline-block;
+    background:#c3e9ff;
+    color: #4a7fe4;
+    padding: 4px;
+    border-radius:3px ;
+    margin: 2px;
+
+}
+
+#reset-button{
+    background-color: #2e90d8;
+    padding: 10px;
+    color:#fff;
+    border: 0;
+    border-radius: 3px;
+}
+
+.food {
+    text-align: center;
+    color: #fff;
+  }

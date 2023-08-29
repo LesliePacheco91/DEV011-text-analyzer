@@ -8,6 +8,35 @@
 </head>
 
 <body>
+  <div class="container">
+    
+    <header id="head"> 
+      <h1>Analizador de texto</h1>
+    </header>
+
+    <div class="tex-list">
+
+      <ul>
+        <li  data-testid="word-count">Palabras:0</li>
+        <li  data-testid="character-count">Caracteres:0</li>
+        <li  data-testid="character-no-spaces-count">Caracteres sin espacio:0</li>
+        <li  data-testid="number-count">Numeros:0</li>
+        <li  data-testid="number-sum">Suma de numeros:0</li>
+        <li  data-testid="word-length-average">Promedio de longitud:0</li>
+      </ul>
+
+    </div>
+  
+    <div class = "text-contend">
+      <textarea placeholder="Ingresa el texto aqui" name = "user-input"></textarea>
+    </div>
+    <div class="text-contend">
+      <button id="reset-button">Limpiar metricas</button>
+    </div>
+
+  </div>
+  <footer> <h4 class = "food">Creado por: Leslie Sharai Pacheco</h4></footer>
+
   <script src="index.js" type="module"></script>
 </body>
 </html>
