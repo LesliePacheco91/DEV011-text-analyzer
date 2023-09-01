@@ -10,19 +10,19 @@
 <body>
 <div class="container">
     
-    <header id="head"> 
+    <header> 
       <h1>Analizador de texto</h1>
     </header>
 
     <div class="tex-list">
 
       <ul>
-        <li  class = "word-count" data-testid="word-count">Palabras:0</li>
-        <li  class = "character-count" data-testid="character-count">Caracteres:0</li>
-        <li  class = "character-no-spaces-count" data-testid="character-no-spaces-count">Caracteres sin espacio:0</li>
-        <li  class = "number-count" data-testid="number-count">Numeros:0</li>
-        <li  class = "number-sum" data-testid="number-sum">Suma de numeros:0</li>
-        <li  class = "word-length-average" data-testid="word-length-average">Promedio de longitud:0</li>
+        <li class = "data-list" data-testid="word-count">Palabras:0</li>
+        <li class = "data-list" data-testid="character-count">Caracteres:0</li>
+        <li class = "data-list" data-testid="character-no-spaces-count">Caracteres sin espacio:0</li>
+        <li class = "data-list" data-testid="number-count">Numeros:0</li>
+        <li class = "data-list" data-testid="number-sum">Suma de numeros:0</li>
+        <li class = "data-list" data-testid="word-length-average">Promedio de longitud:0</li>
       </ul>
 
     </div>
@@ -30,12 +30,12 @@
     <div class = "text-contend">
       <textarea placeholder="Ingresa el texto aqui" name = "user-input"></textarea>
     </div>
-    <div class="text-contend">
+    <div class = "text-contend">
       <button id="reset-button">Limpiar metricas</button>
     </div>
 
   </div>
-  <footer> <h4 class = "food">Creado por: Leslie Sharai Pacheco</h4></footer>
+  <footer> <p>Creado por: Leslie Sharai Pacheco</p></footer>
 
   <script src="index.js" type="module"></script>
 </body>
